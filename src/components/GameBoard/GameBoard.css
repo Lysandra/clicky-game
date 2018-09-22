@@ -1,0 +1,36 @@
+.gameboard {
+  background: #fff;
+  border-radius: 2px;
+  height: 250px;
+  margin: 1rem;
+  position: relative;
+  width: 250px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+.gameboard > .img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: rgb(161, 71, 161);
+}
+.gameboard > .img-container > img {
+  width: 80%;
+  padding-top: 15px;
+  border: 5px;
+  border-color: white;
+}
+
+.card > .remove {
+  color: #ff1744;
+  font-size: 48px;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.card > .remove:hover {
+  color: #d50000;
+}
