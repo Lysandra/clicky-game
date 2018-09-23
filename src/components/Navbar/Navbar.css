@@ -6,10 +6,10 @@
   position: fixed;
   top: 0;
   z-index: 9;
+  margin: auto;
 }
 
 ul {
-  display: block;
   list-style-type: none;
 }
 
@@ -28,8 +28,11 @@ ul {
   justify-content: center
 }
 
-
 a {
   color: darkgrey;
   text-decoration: none;
+}
+
+#pipe {
+  font-size: 30px;
 }

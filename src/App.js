@@ -28,27 +28,15 @@ class App extends Component {
     unclicked: imagecards    
   };
 
-  // handleBtnClick = id => {
-  //   let clicked = this.state.clicked;
-  //   if (!clicked.includes(id)) {
-  //     this.setState({ statement: "You guessed correctly!" });
-  //     clicked.push(id);
-  //     this.handleIncrement();
-  //   } else {
-  //     this.setState({ statement: "Game over! Try again!", currentScore: 0 });
-  //     clicked.empty();
-  //   }
-  // };
-
   handleIncrement = image => {
     const findImage = this.state.unclicked.find(item => item.image === image);
     if(findImage === undefined) {
       this.setState({
-        msg: "Game over! Try again",
+        msg: "Game over! Try again!",
         topScore: (this.state.currentScore > this.state.topScore) ? this.state.currentScore : this.state.topScore,
         currentScore: 0,
         imagecards: imagecards,
-        unselected: imagecards
+        unclicked: imagecards
       });
       this.moveImage();
     }
@@ -59,7 +47,7 @@ class App extends Component {
         msg: "You guesss correctly! Score!",
         currentScore: this.state.currentScore +1,
         imagecards: imagecards,
-        unselected: newImages
+        unclicked: newImages
       });
       this.moveImage();
     }
