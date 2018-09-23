@@ -12,51 +12,51 @@
   {
     "id": 3,
     "name": "Connect Four",
-    "image": "img/connectfour.jpg"
+    "image": "/img/connectfour.jpg"
   },
   {
     "id": 4,
     "name": "Dungeons & Dragons",
-    "image": "img/dnd.jpg"
+    "image": "/img/dnd.jpg"
   },
   {
     "id": 5,
     "name": "Don't Step on It",
-    "image": "img/dontstepinit.jpg"
+    "image": "/img/dontstepinit.jpg"
   },
   {
     "id": 6,
     "name": "Guess Who",
-    "image": "img/guesswho.jpg"
+    "image": "/img/guesswho.jpg"
   },
   {
     "id": 7,
     "name": "Jumanji",
-    "image": "img/jumanji.jpg"
+    "image": "/img/jumanji.jpg"
   },
   {
     "id": 8,
     "name": "Life",
-    "image": "img/life.png"
+    "image": "/img/life.png"
   },
   {
     "id": 9,
     "name": "Logo",
-    "image": "img/logo.jpg"
+    "image": "/img/logo.jpg"
   },
   {
     "id": 10,
     "name": "Memory",
-    "image": "img/memory.jpg"
+    "image": "/img/memory.jpg"
   },
   {
     "id": 11,
     "name": "Monopoly",
-    "image": "img/monopoly.jpg"
+    "image": "/img/monopoly.jpg"
   },
   {
     "id": 12,
     "name": "Sorry",
-    "image": "img/sorry.jpg"
+    "image": "/img/sorry.jpg"
   }
 ]
