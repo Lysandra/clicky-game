@@ -2,12 +2,12 @@
   {
     "id": 1,
     "name": "Boggle",
-    "image": "/img/boggle.jpg"
+    "image": "/img/boggle.png"
   },
   {
     "id": 2,
     "name": "Candyland",
-    "image": "/img/candyland.jpg"
+    "image": "/img/candyland.png"
   },
   {
     "id": 3,
@@ -22,7 +22,7 @@
   {
     "id": 5,
     "name": "Don't Step on It",
-    "image": "img/dontstepinit.jpf"
+    "image": "img/dontstepinit.jpg"
   },
   {
     "id": 6,
@@ -37,7 +37,7 @@
   {
     "id": 8,
     "name": "Life",
-    "image": "img/life.jpg"
+    "image": "img/life.png"
   },
   {
     "id": 9,

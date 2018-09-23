@@ -3,13 +3,10 @@ import "./GameBoard.css";
 
 const GameBoard = props => (
   <div 
-    className="gameboard"
-    data-value={props.id}
-    onClick={props.handleBtnClick}
-    >
-  <div className="img-container">
-      <img alt={props.id} src={props.image} />
-  </div>  
+    className="gameboard">
+    <div className="img-container">
+      <img alt={props.name} src={props.image} onClick={() => props.handleIncrement(props.image)} />
+    </div>
   </div>  
 );
 

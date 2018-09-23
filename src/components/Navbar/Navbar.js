@@ -10,7 +10,7 @@ const Navbar = props => (
           <a href="/click-game/">Clicky Game!</a>
         </li>
         <li className="list-item">         
-          Click an image to begin!          
+          {props.statement}
         </li>
         <li className="list-item">
           Score: {props.currentScore} | Top Score: {props.topScore}
